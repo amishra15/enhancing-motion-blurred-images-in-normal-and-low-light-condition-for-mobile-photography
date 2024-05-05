@@ -43,6 +43,13 @@ The implementation of complex CNNs on the merged dataset significantly enhanced 
 
 ![Deblurred Image Example](https://i.imgur.com/CVMoQig.png)
 
+- Training History
+
+![Training History](https://i.imgur.com/nBBNxNu.png)
+
+Average SSIM: 0.4122613634069845
+Average PSNR: 13.250429498226481
+
 ## Technologies Used
 - Python
 - TensorFlow/Keras
