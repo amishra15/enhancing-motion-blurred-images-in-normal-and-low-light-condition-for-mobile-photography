@@ -89,14 +89,40 @@ To use this project effectively, follow these detailed steps:
 6. **Run the Notebook**:
    - Follow the instructions within the notebook to train the models and perform image deblurring. Make sure all paths in the code are correctly set to where your data is stored in Google Drive.
 
+## Future Directions
+
+Following the success of our current model in deblurring images using a dual-dataset approach and a focus on Gaussian blur, we outline several promising avenues for further research and development:
+
+### Exploring Various Types of Blurs
+- **Objective**: Extend the model's capability to handle various types of blurs beyond Gaussian. This includes motion blur, defocus blur, and others which frequently occur in real-world scenarios.
+- **Rationale**: Diversifying the types of blurs addressed can enhance the model's robustness and applicability across different photographic conditions and challenges.
+
+### Integrating More Datasets
+- **Objective**: Incorporate additional datasets to train the models, particularly those capturing a broader range of environments and conditions.
+- **Rationale**: Adding more datasets can improve the model's generalizability and performance across a wider array of lighting conditions and camera settings.
+
+### Real-Time Deblurring
+- **Objective**: Develop a real-time deblurring system that can be implemented in mobile devices or in-camera software.
+- **Rationale**: Providing real-time processing capabilities would significantly enhance user experience by delivering high-quality images instantaneously during the capture process.
+
+### Increasing Sample Size
+- **Objective**: Significantly increase the number of images used in training and testing the models.
+- **Rationale**: Expanding the sample size will help in enhancing the statistical significance of the results and improve the robustness of the models across varied scenarios. This approach is particularly critical given that only 500 samples from combined datasets were used initially.
+
+
+### Automated Model Selection
+- **Objective**: Create a system that can automatically select the optimal model based on the specific characteristics of the input image.
+- **Rationale**: Automating model selection can maximize performance by tailoring the processing to the specific needs of each image, enhancing efficiency and effectiveness in diverse scenarios.
+
+## Implementing these directions will require addressing computational limitations, possibly through optimized algorithms or more powerful computing resources. The success in these areas could significantly push the boundaries of what's currently possible in image processing technology.
+
+
 ## Contributing
 Interested in contributing? Great! Please open an issue to discuss proposed changes or submit a pull request.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
-## Citation
-If you use this project or the datasets in your research, please cite it as follows:
 
 ```bibtex
 @misc{Enhancing Motion Blurred Images in normal and low light conditions,
