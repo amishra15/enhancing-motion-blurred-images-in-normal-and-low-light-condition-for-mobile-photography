@@ -18,11 +18,11 @@ This project leverages deep learning to deblur images under both normal and low-
 ## Methodology
 
 ### Models Employed
-- **On HDR+ Dataset**:
+- **On HDR+ Dataset (200 Samples)**:
   - Convolutional Neural Networks (CNN)
   - AutoEncoders
   - U-Net
-- **On ExDark Dataset**:
+- **On ExDark Dataset (300 Samples)**:
   - Generative Adversarial Networks (GANs)
   - CNN
   - AutoEncoders
@@ -36,7 +36,7 @@ This project leverages deep learning to deblur images under both normal and low-
 3. **Model Training**:
    - Independently on HDR+ and ExDark datasets.
    - On the merged dataset for enhanced results.
-4. **Deblurring**: Evaluate the deblurring performance using complex CNN models.
+4. **Deblurring**: Evaluate the deblurring performance using SSIM, PSNR values, Validation/Loss Graph and Image Clarity.
 
 ## Results
 The implementation of complex CNNs on the merged dataset significantly enhanced image clarity, demonstrating superior deblurring performance. Below is an example of the deblurring results:
