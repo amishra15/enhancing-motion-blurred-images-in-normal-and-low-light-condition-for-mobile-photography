@@ -56,4 +56,54 @@ Average PSNR: 13.250429498226481
 - OpenCV
 - Jupyter Notebook
 
-## Repository Structure
+## Datasets
+- HDR+ Burst Photography Dataset: Hasinoff, S. W., Sharlet, D., Geiss, R., Adams, A., Barron, J. T., Kainz, F.,
+Chen, J., & Levoy, M. (2016). Burst photography for high dynamic range and low-light imaging on mobile
+cameras. ACM Transactions on Graphics (Proc. SIGGRAPH Asia 2016), 35(6).
+http://hdrplusdata.org/dataset.html
+- ExDark Dataset Loh, Y. P., Chan, C. S., Por, L. Y., & Ling, C. Y. (2018). Getting to Know Low-light Images with
+The Exclusively Dark Dataset. arXiv preprint arXiv:1805.11227.
+https://paperswithcode.com/dataset/exdark
+
+## Usage
+To use this project effectively, follow these detailed steps:
+
+1. **Obtain the Datasets**:
+   - Download the HDR+ and ExDark datasets from their respective sources.
+   - Due to licensing, the full datasets cannot be directly included in this repository.
+
+2. **Setup Google Drive**:
+   - Upload the downloaded datasets to your Google Drive in a specific folder, e.g., `datasets/your-project-name`.
+
+3. **Google Colab Setup**:
+   - Download the provided Jupyter notebook from the `notebooks/` directory of this repository.
+   - Upload the notebook to your Google Drive, preferably in the same project folder where the datasets are stored.
+
+4. **Open with Google Colab**:
+   - Navigate to Google Drive and open the uploaded notebook with Google Colab.
+   - Ensure that the notebook is configured to use the correct path to the datasets in your Google Drive.
+
+5. **Consider Upgrading to Google Colab Pro+**:
+   - Since this project requires significant computational power to process and deblur the images effectively, consider subscribing to Google Colab Pro+. This will provide you with enhanced access to faster GPUs and longer runtime, which are crucial for training deep learning models efficiently.
+
+6. **Run the Notebook**:
+   - Follow the instructions within the notebook to train the models and perform image deblurring. Make sure all paths in the code are correctly set to where your data is stored in Google Drive.
+
+## Contributing
+Interested in contributing? Great! Please open an issue to discuss proposed changes or submit a pull request.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+## Citation
+If you use this project or the datasets in your research, please cite it as follows:
+
+```bibtex
+@misc{Enhancing Motion Blurred Images in normal and low light conditions,
+  author = {Abhinav Mishra},
+  title = {Deblurring Motion Blurred Images in Normal and Low Light: Deep Learning-based Deblurring Using Dual Datasets},
+  year = {2024},
+  publisher = {GitHub},
+  journal = {https://github.com/amishra15/enhancing-motion-blurred-images-in-normal-and-low-light-condition-for-mobile-photography},
+  howpublished = {\\https://github.com/amishra15/enhancing-motion-blurred-images-in-normal-and-low-light-condition-for-mobile-photography}}
+}
