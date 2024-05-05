@@ -100,7 +100,7 @@ If you use this project or the datasets in your research, please cite it as foll
 
 ```bibtex
 @misc{Enhancing Motion Blurred Images in normal and low light conditions,
-  author = {Abhinav Mishra},
+  author = {Abhinav Mishra, Anilkumar Reddy, Ramesh Chandra},
   title = {Deblurring Motion Blurred Images in Normal and Low Light: Deep Learning-based Deblurring Using Dual Datasets},
   year = {2024},
   publisher = {GitHub},
