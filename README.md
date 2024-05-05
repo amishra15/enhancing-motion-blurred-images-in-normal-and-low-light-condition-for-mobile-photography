@@ -54,7 +54,7 @@ Average PSNR: 13.250429498226481
 - Python
 - TensorFlow/Keras
 - OpenCV
-- Jupyter Notebook
+- Google Colab Pro+
 
 ## Datasets
 - HDR+ Burst Photography Dataset: Hasinoff, S. W., Sharlet, D., Geiss, R., Adams, A., Barron, J. T., Kainz, F.,
