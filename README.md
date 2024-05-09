@@ -1,7 +1,7 @@
 # Dual-Dataset Deblurring Project
 
 ## Overview
-This project leverages deep learning to deblur images under both normal and low-light conditions using a dual-dataset approach. Our goal is to enhance mobile photography by improving image clarity impacted by various blurs, focusing on Gaussian blur due to computational constraints.
+This project leverages deep learning to deblur images under both normal and low-light conditions using a dual-dataset approach. Our goal is to enhance mobile photography by improving image clarity impacted by various blurs, focusing on Gaussian blur due to computational constraints. <br/>
 **This Research demands very high computational power**
 
 ## Datasets
@@ -101,6 +101,32 @@ To use this project effectively, follow these detailed steps:
 6. **Run the Notebook**:
    - Follow the instructions within the notebook to train the models and perform image deblurring. Make sure all paths in the code are correctly set to where your data is stored in Google Drive.
 
+## Limitations and Restrictions
+
+### Computational Requirements
+- **High Computational Power**: This project demands significant computational resources, which may not be accessible to all users. High-performance computing environments are required for effective model training and evaluation.
+
+### Data Handling
+- **Dataset Size and Diversity**: The project currently utilizes only 500 samples from two datasets, potentially limiting the models' generalizability and robustness. Larger and more diverse datasets are needed for comprehensive results.
+- **Raw Data Format**: The HDR+ dataset is in raw DNG format, requiring specific tools for processing, which may limit its usability.
+
+### Licensing
+- **Dataset Licenses**: Specific licenses govern the use of the datasets:
+  - **HDR+ Dataset**: Licensed under Creative Commons (CC-BY-SA), requiring attribution and sharing under similar terms, possibly limiting commercial use.
+  - **ExDark Dataset**: Restricted to academic research, limiting its use in commercial or non-academic environments.
+
+### Model Complexity
+- **Advanced Model Architectures**: The project uses complex models, such as Advanced CNNs, which may be challenging for users without deep neural network expertise.
+
+### Specificity to Blur Types
+- **Focus on Gaussian Blur**: Models are currently optimized for Gaussian blur, potentially underperforming with other types of blurs like motion or defocus blur.
+
+### Real-Time Processing
+- **Lack of Real-Time Capability**: The project does not currently include real-time deblurring capabilities for mobile devices or cameras.
+
+### Future Enhancements
+- **Dependence on Future Improvements**: The project's success and utility depend on future developments, including more datasets, expanded blur types, and real-time processing capabilities.
+
 ## Future Directions
 
 Following the success of our current model in deblurring images using a dual-dataset approach and a focus on Gaussian blur, we outline several promising avenues for further research and development:
@@ -125,8 +151,8 @@ Following the success of our current model in deblurring images using a dual-dat
 ### Automated Model Selection
 - **Objective**: Create a system that can automatically select the optimal model based on the specific characteristics of the input image.
 - **Rationale**: Automating model selection can maximize performance by tailoring the processing to the specific needs of each image, enhancing efficiency and effectiveness in diverse scenarios.
-
-## Implementing these directions will require addressing computational limitations, possibly through optimized algorithms or more powerful computing resources. The success in these areas could significantly push the boundaries of what's currently possible in image processing technology.
+<br/><br/>
+Implementing these directions will require addressing computational limitations, possibly through optimized algorithms or more powerful computing resources. The success in these areas could significantly push the boundaries of what's currently possible in image processing technology.
 
 
 ## Contributing
