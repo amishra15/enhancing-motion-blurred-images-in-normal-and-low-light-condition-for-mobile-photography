@@ -2,6 +2,7 @@
 
 ## Overview
 This project leverages deep learning to deblur images under both normal and low-light conditions using a dual-dataset approach. Our goal is to enhance mobile photography by improving image clarity impacted by various blurs, focusing on Gaussian blur due to computational constraints.
+**This Research demands very high computational power**
 
 ## Datasets
 
